@@ -10,8 +10,8 @@ This a template for using dotnet core + react + docker. No strings attached.
   
   Once you have installed docker for mac then drop to a terminal window.
 
-  `cd /path/to/pitt-boss`
-  `docker build --pull -t pitt-boss .`
-  `docker run --name pitt-boss --rm -it -p 5000:80 pitt-boss`
+  * run `cd /path/to/pitt-boss`
+  * run `docker build --pull -t pitt-boss .`
+  * run `docker run --name pitt-boss --rm -it -p 5000:80 pitt-boss`
 
   Now that it is running. Open a browser and navigate to `http://localhost:5000`
